@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="쿠폰">
+        <item>사용 안함</item>
+        <item>첫 상담 10% 할인 쿠폰</item>
+        <item>가정의 달 법 분야 10000원 할인 쿠폰</item>
+    </string-array>
+</resources>
