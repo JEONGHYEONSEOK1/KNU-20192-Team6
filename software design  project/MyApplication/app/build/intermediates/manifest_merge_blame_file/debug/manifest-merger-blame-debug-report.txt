@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.matching.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\hyeonseok\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/icon"
+15-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:7:9-38
+16        android:label="다매칭"
+16-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:8:9-28
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="org.matching.myapplication.MainActivity" >
+20-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:9-18:20
+20-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:17-69
+22-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:17-77
+24-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="org.matching.myapplication.catagory" />
+27-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:9-54
+27-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:19:19-42
+28        <activity android:name="org.matching.myapplication.exlist" />
+28-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:9-52
+28-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:20:19-40
+29        <activity android:name="org.matching.myapplication.exdetail" />
+29-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:21:9-54
+29-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:21:19-42
+30        <activity android:name="org.matching.myapplication.reservation" />
+30-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:9-57
+30-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:22:19-45
+31        <activity android:name="org.matching.myapplication.complete" />
+31-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:9-54
+31-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:23:19-42
+32        <activity android:name="org.matching.myapplication.exhistory" />
+32-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:9-55
+32-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:24:19-43
+33        <activity android:name="org.matching.myapplication.review" />
+33-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:9-52
+33-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:25:19-40
+34        <activity android:name="org.matching.myapplication.myreservation" />
+34-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:9-59
+34-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:26:19-47
+35        <activity android:name="org.matching.myapplication.qa" />
+35-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:27:9-48
+35-->C:\Users\hyeonseok\AndroidStudioProjects\MyApplication\app\src\main\AndroidManifest.xml:27:19-36
+36    </application>
+37
+38</manifest>
